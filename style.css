@@ -57,22 +57,17 @@ p {
     margin: 20px 0;
 }
 
+/* style.css */
 .photos-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Exibe as imagens em uma coluna */
     align-items: center;
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .photo {
-    max-width: 100%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-    margin: 0 15px;
-    transition: transform 0.3s ease-in-out;
+    width: 100%; /* Ajusta as imagens para ocuparem 100% da largura */
+    max-width: 500px; /* Define um tamanho máximo opcional para as imagens */
+    margin-bottom: 15px; /* Espaço entre as imagens */
 }
 
 /* Efeito ao passar o mouse nas imagens */
